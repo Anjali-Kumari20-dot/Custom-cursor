@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move{
+    color: white;
+    mix-blend-mode: difference;
+    position: absolute;
+    transition: all linear 0.3s;
+}
+.onClick{
+    opacity: 0;
+    color: white;
+    mix-blend-mode: difference;
+    position: absolute;
+    transition: all linear 0.2s;
+}
+h1{
+    font-size: 9vw;
+    font-weight: 900;
+}
