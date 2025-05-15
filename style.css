@@ -2,16 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-html,
-body{
+html, body{
     height: 100%;
     width: 100%;
 }
-
 #main{
     height: 100%;
     width: 100%;
@@ -20,21 +15,35 @@ body{
     align-items: center;
     justify-content: center;
 }
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+}
+#image{
+    height: 70vh;
+    width: 60vw;
+    background-color: red;
+    position: relative;
+}
 
-.move{
-    color: white;
-    mix-blend-mode: difference;
-    position: absolute;
-    transition: all linear 0.3s;
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-.onClick{
-    opacity: 0;
-    color: white;
-    mix-blend-mode: difference;
+
+#overlay{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    transition: all linear 0.2s;
-}
-h1{
-    font-size: 9vw;
-    font-weight: 900;
 }
