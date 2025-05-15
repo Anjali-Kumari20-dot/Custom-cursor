@@ -1,49 +1,22 @@
-# Interactive Cursor Animation
+# Custom Cursor Animation
 
-## Overview
-This is a simple webpage featuring a dynamic cursor effect using Font Awesome icons. The hand icon follows the user's mouse movements and changes on click, creating an interactive experience.
+A visually engaging **custom cursor effect** using **GSAP animations** that enhances user interaction when hovering over an image.
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-- Font Awesome (CDN)
+## 🚀 Features
+- Custom mouse cursor following movement smoothly
+- Dynamic hover effect with scaling and text change
+- GSAP-powered animations for fluid interactions
 
-## Features
-- A black-themed background with a centered title.
-- Cursor animation where an icon (`fa-hand`) follows the mouse.
-- Click effect toggling between two icons (`fa-hand` and `fa-hand-point-up`).
+## 🛠 Technologies Used
+- **HTML** – Structure of the webpage
+- **CSS** – Styling for custom cursor and layout
+- **JavaScript** – Interactive effects and event handling
+- **GSAP** – Animation library for smooth transitions
 
-## Setup Instructions
-1. Clone or download the project files.
-2. Open `index.html` in a web browser.
-3. Ensure `style.css` and `script.js` are linked correctly.
+## 📷 Preview
+![Project Screenshot](https://images.unsplash.com/photo-1743125612767-0f54571fb1fa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQzfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D)
 
-## Code Breakdown
-
-### HTML (`index.html`)
-- Includes Font Awesome for icons.
-- Contains two hand icons for animation.
-- Displays the title **"Anjali"**.
-
-### CSS (`style.css`)
-- Applies a dark mode theme.
-- Uses `mix-blend-mode` for contrast effects.
-- Smooth transitions ensure fluid animations.
-
-### JavaScript (`script.js`)
-- Moves the hand icon with the cursor.
-- Toggles between icons on click using a timeout function.
-
-## Future Enhancements
-- Adding hover animations.
-- Implementing sound effects.
-- Expanding interaction for mobile devices.
-
-## License
-This project is open-source and free to use.
-
----
-
-Let me know if you need additional details or modifications! 🚀
-``` 
+## 📌 Installation & Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Anjali-Kumari20-dot/Custom-cursor.git
